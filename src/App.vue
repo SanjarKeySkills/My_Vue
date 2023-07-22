@@ -2,6 +2,7 @@
   <div id="app">
       <AppTodo />
       <TodoList v-bind:todos="todos" />
+      <Smth />
   </div>
 </template>
 
