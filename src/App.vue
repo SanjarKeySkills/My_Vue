@@ -22,27 +22,32 @@ export default (await import('vue')).defineComponent({
               {
                   id: 1,
                   todo: "Task 1",
-                  completed: false
-              },
+                  completed: false,
+                  effect: true,
+                                },
               {
                   id: 2,
                   todo: "Task 2",
-                  completed: false
+                  completed: false,
+                  effect: false,
               },
               {
                   id: 3,
                   todo: "Task 3",
-                  completed: false
+                  completed: false,
+                  effect: true,
               },
               {
                   id: 4,
                   todo: "Task 4",
-                  completed: true
+                  completed: true,
+                  effect: false,
               },
               {
                   id: 5,
                   todo: "Task 5",
-                  completed: true
+                  completed: true,
+                  effect: true,
               },
 
           ]
